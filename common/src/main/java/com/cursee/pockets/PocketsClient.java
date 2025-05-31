@@ -1,6 +1,6 @@
 package com.cursee.pockets;
 
-import com.cursee.pockets.core.event.ScreenEvents;
+import com.cursee.pockets.client.event.ScreenEvents;
 
 public class PocketsClient {
 

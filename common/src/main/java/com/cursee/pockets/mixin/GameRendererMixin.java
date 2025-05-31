@@ -1,6 +1,6 @@
 package com.cursee.pockets.mixin;
 
-import com.cursee.pockets.core.event.ScreenEvents;
+import com.cursee.pockets.client.event.ScreenEvents;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.renderer.GameRenderer;

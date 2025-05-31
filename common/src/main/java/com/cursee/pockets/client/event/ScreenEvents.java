@@ -1,4 +1,4 @@
-package com.cursee.pockets.core.event;
+package com.cursee.pockets.client.event;
 
 import com.cursee.pockets.core.util.event.Event;
 import com.cursee.pockets.core.util.event.EventFactory;
