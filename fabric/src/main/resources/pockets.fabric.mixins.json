@@ -7,12 +7,12 @@
     "mixins": [],
     "client": [
         "GameRendererMixin",
+        "MinecraftMixin",
         "MouseHandlerMixin",
         "ScreenMixin"
     ],
     "server": [],
     "injectors": {
-      "defaultRequire": 1
+        "defaultRequire": 1
     }
-  }
-  
+}
