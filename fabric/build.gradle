@@ -13,7 +13,7 @@ dependencies {
     implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
     implementation project(":common")
 
-    modImplementation "curse.maven:modmenu-308702:5162837"
+    modImplementation "curse.maven:modmenu-308702:4145213"
 }
 
 loom {

@@ -4,5 +4,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 public class PocketsClientForge {
 
-    public PocketsClientForge(final IEventBus modEventBus) {}
+    public PocketsClientForge(final IEventBus modEventBus) {
+        PocketsClient.init();
+    }
 }

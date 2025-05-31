@@ -6,6 +6,6 @@ public class PocketsClientFabric implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-
+        PocketsClient.init();
     }
 }
