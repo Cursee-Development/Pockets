@@ -4,12 +4,13 @@
     "package": "com.cursee.pockets.mixin",
     "refmap": "${mod_id}.refmap.json",
     "compatibilityLevel": "JAVA_17",
-    "mixins": [],
+    "mixins": ["PlayerMixin"],
     "client": [
         "GameRendererMixin",
         "MinecraftMixin",
         "MouseHandlerMixin",
-        "ScreenMixin"
+        "ScreenMixin",
+        "EffectRenderingInventoryScreenMixin"
     ],
     "server": [],
     "injectors": {

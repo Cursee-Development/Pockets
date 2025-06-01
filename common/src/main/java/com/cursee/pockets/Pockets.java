@@ -1,6 +1,7 @@
 package com.cursee.pockets;
 
 import com.cursee.pockets.core.event.AnvilEvents;
+import com.cursee.pockets.core.event.EquipLeggingEvents;
 import net.minecraft.resources.ResourceLocation;
 
 public class Pockets {
@@ -8,6 +9,9 @@ public class Pockets {
     public static void init() {
         AnvilEvents.ON_LAND.register(anvilBlock -> {
             System.out.println("Landed");
+        });
+        EquipLeggingEvents.ON_EQUIP.register(player -> {
+            System.out.println("Equipped Leggings Only");
         });
     }
 
