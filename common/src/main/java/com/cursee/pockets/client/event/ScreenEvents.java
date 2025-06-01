@@ -4,6 +4,8 @@ import com.cursee.pockets.core.util.event.Event;
 import com.cursee.pockets.core.util.event.EventFactory;
 import net.minecraft.client.gui.screens.Screen;
 
+// Defines events
+
 public class ScreenEvents {
 
     public static final Event<PreScreenInitEvent> PRE_SCREEN_INIT = EventFactory.createArrayBacked(PreScreenInitEvent.class, events -> screen -> {

@@ -3,6 +3,8 @@ package com.cursee.pockets;
 import com.cursee.pockets.client.event.ClientEvents;
 import com.cursee.pockets.client.event.ScreenEvents;
 
+// Registers to events
+
 public class PocketsClient {
 
     public static void init() {
